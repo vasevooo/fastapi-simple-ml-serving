@@ -12,3 +12,8 @@ dependencies = [
     "scikit-learn>=1.7.0",
     "uvicorn>=0.35.0",
 ]
+
+
+# Явно указываем пакеты
+[tool.setuptools]
+packages = ["app"]
